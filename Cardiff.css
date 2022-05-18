@@ -6,6 +6,7 @@
 body{
   background-color: #123d0e;
   padding: 50px;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -44,6 +45,7 @@ img{
 
 #menuh{
   margin-left: auto;
+  min-width: 200px;
 }
 
 #menuh ul{
@@ -51,18 +53,21 @@ img{
 }
 
 #menuh ul li{
-  padding: 10px;
+  border-top: 2px solid green;
+  text-align: center;
+  width: 140px;
+  padding: 15px;
   margin-left: 20px;
   list-style-type: none;
   background-color: purple;
 }
 
-#menuh ul a{
+#menuh ul li a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-#menuh ul a li:hover{
+#menuh ul li:hover{
   transition: 2s;
   background-color: white;
   color: black;
@@ -74,14 +79,22 @@ img{
   background-color: #1b3321;
 }
 
+header + #entete{
+    min-width: 200px;
+}
+
 #entete h1{
   color: white;
   font-family: monospace;
   margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #corps{
   background-color: white;
+  min-width: 200px;
   padding: 30px;
 }
 
@@ -98,17 +111,21 @@ img{
   margin-right: 75px;
 }
 
-#menu ul a li{
+#menu ul{
+}
+
+#menu ul li{
+  text-align: center;
+  border-left: 5px solid green;
   list-style-type: none;
   background-color: purple;
   padding: 15px;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 
-#menu ul a li:hover{
+#menu ul li:hover{
   transition: 2s;
-  background-color: white;
+  background-color: #bcc2cc;
   color: black;
 }
 
@@ -119,6 +136,9 @@ img{
 
 #article_1{
   margin-bottom: 20px;
+  background-color: #bcc2cc;
+  padding: 20px;
+  border-top: 2px solid green;
 }
 
 #article_1 img{
@@ -126,6 +146,12 @@ img{
   float: left;
   max-height: inherit;
   width: 225px;
+}
+
+#article_2{
+  padding: 20px;
+  background-color: #bcc2cc;
+  border-top: 2px solid green;
 }
 
 #article_2 img{
@@ -147,6 +173,11 @@ img{
 
 aside{
   min-width: 20%;
+}
+
+aside h2{
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 footer{
