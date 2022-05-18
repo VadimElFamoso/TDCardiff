@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #123d0e;
+  padding: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* Propre à la page "histoire"  */
+#container{
+  background-color: white;
+  padding: 30px;
+}
+
+#container h1{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+/* Propre à la page "histoire"  */
+
+header img{
+  max-height: inherit;
+  width: 100%;
+}
+
+#corps .gauche{
+  margin: 10px;
+  float: left;
+  width: 125px;
+  max-height: auto;
+  max-width: auto;
+}
+
+#corps .droite{
+  margin: 10px;
+  float: right;
+  width: 125px;
+  max-height: auto;
+  max-width: auto;
+}
+
+#corps img{
+  margin: 20px;
+  max-height: inherit;
+  width: 25%;
+  height auto;
+}
+
+#corps h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#menuh{
+  margin-left: auto;
+  min-width: 200px;
+}
+
+#menuh ul{
+  display: flex;
+}
+
+#menuh ul li{
+  border-top: 2px solid green;
+  text-align: center;
+  width: 140px;
+  padding: 15px;
+  margin-left: 20px;
+  list-style-type: none;
+  background-color: purple;
+}
+
+#menuh ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+#menuh ul li:hover{
+  transition: 2s;
+  background-color: white;
+  color: black;
+
+}
+
+#entete{
+  display: flex;
+  background-color: #1b3321;
+}
+
+header + #entete{
+    min-width: 200px;
+}
+
+#entete h1{
+  color: white;
+  font-family: monospace;
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#corps{
+  background-color: white;
+  min-width: 200px;
+  padding: 30px;
+  display: flex;
+}
+
+#menu{
+  min-width: 20%;
+}
+
+#menu h1{
+  margin-bottom: 10px;
+}
+
+#menu, aside{
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#menu ul{
+}
+
+#menu ul li{
+  text-align: center;
+  border-left: 5px solid green;
+  list-style-type: none;
+  background-color: purple;
+  min-width: 105px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#menu ul li:hover{
+  transition: 2s;
+  background-color: #bcc2cc;
+  color: black;
+}
+
+#menu ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#article_1{
+  margin-bottom: 20px;
+  background-color: #bcc2cc;
+  padding: 20px;
+  border-top: 2px solid green;
+}
+
+#article_1 img{
+  margin: 10px;
+  float: left;
+  width: 125px;
+  max-height: auto
+  max-width: auto;
+}
+
+#article_2{
+  padding: 20px;
+  background-color: #bcc2cc;
+  border-top: 2px solid green;
+  margin-bottom: 20px;
+}
+
+#article_2 img{
+  margin: 10px;
+  float: right;
+  width: 175px;
+}
+
+#article_3{
+  padding: 20px;
+  background-color: #bcc2cc;
+  border-top: 2px solid green;
+}
+
+#article_3 img{
+  margin: 10px;
+  float: left;
+  width: 175px;
+}
+
+#corps p{
+  margin-top: 10px;
+}
+
+aside{
+  min-width: 20%;
+}
+
+aside h2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
